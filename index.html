@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DalaNinja Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- <img class="background-img" src="./coding_background.jpg" alt="background"> -->
+    <div class="wrapper">
+        <div class="content">
+            <div class="title__container">
+                <h1 class="primary__title" id="title">
+                    &lt;<span class="primary__title bold">!Dala Ninja</span>&gt; Survey Form
+                </h1>
+                <p class="primary__caption" id="description">
+                    Thank you for taking the time to help us improve the platform
+                </p>
+            </div>
+            <form class="survey__form" id="survey-form">
+                <div class="survey__form-group">
+                    <label class="survey__form-title" for="name" id="name-label">Your Name</label>
+                    <input class="survey__form-input" id="name" type="text" placeholder="Name" required />
+                </div>
+                <div class="survey__form-group">
+                    <label class="survey__form-title" for="email" id="email-label">Your Email</label>
+                    <input class="survey__form-input" id="email" type="email" placeholder="Email" required />
+                </div>
+                <div class="survey__form-group">
+                    <label class="survey__form-title" for="number" id="number-label">Your Age</label>
+                    <input class="survey__form-input" id="number" type="number" min="14" max="27" placeholder="Age" required />
+                </div>
+                <div class="survey__form-group">
+                    <p class="survey__form-title">
+                        Which option best describes your current role?
+                    </p>
+                    <select class="survey__form-input" id="dropdown">
+                        <option disabled selected value>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="job">Full Time Job</option>
+                        <option value="learner">Full Time Learner</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="survey__form-group">
+                    <p class="survey__form-title">
+                        Would you recommend <span class="primary__title bold">DalaNinja</span> to a friend?
+                    </p>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="defenetly" name="user-recommend" value="defenetly" type="radio" checked />
+                        <label class="survey__form-label" for="defenetly">Defenetly</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="maybe" name="user-recommend" value="maybe" type="radio">
+                        <label class="survey__form-label" for="maybe">Maybe</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="not-sure" name="user-recommend" value="not-sure" type="radio">
+                        <label class="survey__form-label" for="not-sure">Not Sure</label>
+                    </div>
+                </div>
+                <div class="survey__form-group">
+                    <p class="survey__form-title">
+                        What is your favorite feature of <span class="primary__title bold">DalaNinja</span>?
+                    </p>
+                    <select class="survey__form-input select" id="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="student">Challenges</option>
+                        <option value="job">Projects</option>
+                        <option value="learner">Community</option>
+                        <option value="preferNo">Open Source</option>
+                    </select>
+                </div>
+                <div class="survey__form-group">
+                    <p class="survey__form-title">
+                        What would you like to see improved?
+                    </p>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="front-end-projects" name="user-recommend" value="front-end-projects" type="checkbox">
+                        <label class="survey__form-label" for="front-end-projects">Front-end Projects</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="back-end-projects" name="user-recommend" value="back-end-projects" type="checkbox">
+                        <label class="survey__form-label" for="back-end-projects">Back-end Projects</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="data-visualization" name="user-recommend" value="data-visualization" type="checkbox">
+                        <label class="survey__form-label" for="data-visualization">Data Visualization</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="challenges" name="user-recommend" value="challenges" type="checkbox">
+                        <label class="survey__form-label" for="challenges">Challenges</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="open-source-community" name="user-recommend" value="open-source-community" type="checkbox">
+                        <label class="survey__form-label" for="open-source-community">Open Source Community</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="gitter-help-rooms" name="user-recommend" value="gitter-help-rooms" type="checkbox">
+                        <label class="survey__form-label" for="gitter-help-rooms">Gitter help rooms</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="videos" name="user-recommend" value="videos" type="checkbox">
+                        <label class="survey__form-label" for="videos">Videos</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="city-meetups" name="user-recommend" value="city-meetups" type="checkbox">
+                        <label class="survey__form-label" for="city-meetups">City Meetups</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="wiki" name="user-recommend" value="wiki" type="checkbox">
+                        <label class="survey__form-label" for="wiki">Wiki</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="forum" name="user-recommend" value="forum" type="checkbox">
+                        <label class="survey__form-label" for="forum">Forum</label>
+                    </div>
+                    <div class="user-recommend__group">
+                        <input class="user-recommend__input" id="additional-courses" name="user-recommend" value="additional-courses" type="checkbox">
+                        <label class="survey__form-label" for="additional-courses">Additional Courses</label>
+                    </div>
+                </div>
+                <div class="survey__form-group">
+                    <label for="comment" class="survey__form-title">
+                        Any comments or suggestions?
+                    </label>
+                    <textarea class="survey__form-input comment" id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <input class="survey__form-input btn" id="submit" type="submit" />
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
