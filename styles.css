@@ -129,7 +129,6 @@ body::before {
 .survey__form-input {
     padding: 6px 15px;
     border-radius: 10px;
-    border: none;
     border: 2px solid var(--primary);
 
     background-color: var(--primary__black);
