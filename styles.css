@@ -40,7 +40,7 @@ body::before {
       var(--primary__black-li-2),
       var(--primary__li-2)
     ),
-    url(./coding_background.jpg);
+    url(./background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
