@@ -1,6 +1,6 @@
-# [project's title] | FCC Responsive Web Design Certification
+# Survey Form (Certification Project) | FCC Responsive Web Design Certification
 
-**Project 5/20 | (Certification Project)**
+**Project 5/20**
 
 A stylish and fully responsive **survey form** built from scratch using HTML and CSS.
 It features a modern dark theme, a clean layout, and custom UI elements like dropdowns, checkboxes, and text inputs — all wrapped in an aesthetic, user-friendly design.
